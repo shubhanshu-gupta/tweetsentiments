@@ -23,7 +23,7 @@ $tweets = $twitter->get('https://api.twitter.com/1.1/search/tweets.json?q=php&re
 		</form>
 		<?php 
 		if(isset($_POST['keyword'])){
-			$tweets = $twitter->get('https://api.twitter.com/1.1/search/tweets.json?q='.$_POST['keyword'].'&lang=en&result_type=mixed&count=100');
+			$tweets = $twitter->get('https://api.twitter.com/1.1/search/tweets.json?q='.$_POST['keyword'].'&geocode=28.6100,77.2300,1mi&lang=en&result_type=mixed&count=100');
 			foreach ($tweets as $tweet) {
 							# code...
 							foreach ($tweet as $t) {
