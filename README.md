@@ -11,7 +11,7 @@ The new sentiment analysis on tweets has been done using R. It solves the follow
 
 Hence, the code helps in understanding how to assign a sentiment score to a tweet and how to fetch a corpus of 10,000 tweets.
 
-Solution theory:
+### Solution theory:
 1. I have fetched tweets of maggi outrage in the country (I mean, maggi was the topic that I chose for the sentiment analysis).
 
 2. Though, it's fairly easy to fetch 10,000 tweets but in computation terms (and time) it becomes a disaster. I analysed sentiments on a corpus of 1000 tweets, which took about 1.15 hours by my watch.
